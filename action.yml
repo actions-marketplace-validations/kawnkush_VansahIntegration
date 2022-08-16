@@ -2,9 +2,28 @@ name: 'Vansah-testing Integration'
 description: 'GitHub action to import test results into "Vansah" - A complete Test Management tool for Jira.'
 author: 'Testpoint'
 inputs:
-  path:
+  vansahToken:
     required: true
     description: 'Just give me the file'
+  testFormat:
+    required: true
+    description: 'Just give me the file'
+  testPaths:
+    required: true
+    description: 'Just give me the file'
+  projectKeyonJira:
+    required: true
+    description: 'Just give me the file'
+  case_key:
+    required: true
+    description: 'Just give me the file'
+  log_identifier:
+    required: true
+    description: 'Just give me the file'
+  comment:
+    required: true
+    description: 'Just give me the file'
+  
 outputs:
   name:
     description: 'The count of imported files.'
