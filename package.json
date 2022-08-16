@@ -21,6 +21,7 @@
   "homepage": "https://github.com/testpointcorp/Vansah-Github-Action#readme",
   "dependencies": {
     "@actions/core": "^1.9.1",
+    "axios": "^0.27.2",
     "xpath-html": "^1.0.3"
   }
 }

@@ -6,13 +6,13 @@ inputs:
     required: true
     description: 'Just give me the file'
   testFormat:
-    required: true
+    required: false
     description: 'Just give me the file'
   testPaths:
     required: true
     description: 'Just give me the file'
   projectKeyonJira:
-    required: true
+    required: false
     description: 'Just give me the file'
   case_key:
     required: true
