@@ -1,0 +1,26 @@
+{
+  "name": "vansahintegration",
+  "version": "1.0.0",
+  "description": "Send Automation results to Vansah",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testpointcorp/Vansah-Github-Action.git"
+  },
+  "keywords": [
+    "Vansah"
+  ],
+  "author": "Testpoint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testpointcorp/Vansah-Github-Action/issues"
+  },
+  "homepage": "https://github.com/testpointcorp/Vansah-Github-Action#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "xpath-html": "^1.0.3"
+  }
+}
