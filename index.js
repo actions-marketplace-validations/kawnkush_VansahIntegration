@@ -33,7 +33,7 @@ console.log(bodyFormData);
 
 axios({
     method: "post",
-    url: "https://api.vansah.app/api/v3/auto/test_case/update_test_log",
+    url: "https://apiuat.vansah.online/api/v3/auto/test_case/update_test_log",
     data: bodyFormData,
     headers: { "vansah-token": "abe63e37-0741-11ed-bdf2-ae827922bf87" , "Content-Type": "multipart/form-data" },
   })
