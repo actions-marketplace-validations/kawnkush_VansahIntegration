@@ -1,5 +1,6 @@
 const core = require('@actions/core'); //ES5
 const axios = require('axios').default;
+const FormData = require('form-data');
 
 const vansahToken = core.getInput('vansahToken');
 // const testFormat = core.getInput('testFormat');
@@ -23,7 +24,7 @@ console.log(comment);
 var bodyFormData = new FormData();
 bodyFormData.append('file', testPaths);
 bodyFormData.append('log_identifier', log_identifier);
-bodyFormData.append('result_key', result_key);
+bodyFormData.append('result_key', 2);
 bodyFormData.append('comment', comment);
 console.log(bodyFormData);
 
