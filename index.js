@@ -1,4 +1,4 @@
-import * as core from '@actions/core' //ES6
+const core = require('@actions/core'); //ES5
 
 
 const sourceFilePath = core.getInput();
