@@ -4,3 +4,14 @@
 
 # Setup
 ## Configure the workflow
+
+name: Run Web App
+    runs-on: ubuntu-latest
+    steps:
+      -name: Sending results file to Vansah for Jira
+      - uses: kawnkush/VansahIntegration@v10
+        with:
+            vansahToken: ${{secrets.vansahToken}}
+            testPaths: "dummy.txt"
+            log_identifier: 11050
+            comment: "311331"
