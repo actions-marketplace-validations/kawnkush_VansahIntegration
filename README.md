@@ -4,7 +4,6 @@
 
 # Setup
 ## Configure the workflow
-    name: Run Web App
     runs-on: ubuntu-latest
     steps:
       -name: Sending results file to Vansah for Jira
