@@ -1,8 +1,6 @@
-# VansahIntegration
-This is vansah integration
 # Hello world javascript action
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+... a GitHub action to import test results into Vansah for Jira
 
 # Vansah Cloud 
 
