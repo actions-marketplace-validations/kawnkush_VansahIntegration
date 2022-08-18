@@ -3,6 +3,7 @@
 ... a GitHub action to import test results into Vansah for Jira
 
 # Setup
+ Do not specify username and password in cleartext, instead prefer to read them from GitHub action secrets.
 ## Configure the workflow
     runs-on: ubuntu-latest
     steps:
