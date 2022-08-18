@@ -15,8 +15,8 @@
             log_identifier: 11050
             comment: "311331"
 ## Action outputs
-${{steps.{XRAY_STEP_ID}.outputs.count}}
-${{steps.xray.outputs.count}}
+ ${{steps.{XRAY_STEP_ID}.outputs.count}}
+ ${{steps.xray.outputs.count}}
 
 # Developed By
 Shubham Mourya
