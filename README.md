@@ -1,4 +1,4 @@
-# Hello world javascript action
+# Vansah for Jira Action
 
 ... a GitHub action to import test results into Vansah for Jira
 
