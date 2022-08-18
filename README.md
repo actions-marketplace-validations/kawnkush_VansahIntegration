@@ -15,10 +15,10 @@
             log_identifier: 11050
             comment: "311331"
 # Developed By
-. Shubham Mourya
+Shubham Mourya
 
-. Ali Charara
+Ali Charara
 
-. shubham.mourya@testpoint.com.au
+shubham.mourya@testpoint.com.au
 
-. alicha@testpoint.com.au
+alicha@testpoint.com.au
