@@ -16,6 +16,7 @@
             comment: "311331"
 ## Action outputs
  ${{steps.{VANSAH_STEP_ID}.outputs.count}}
+ 
  ${{steps.vansah.outputs.count}}
 
 # Developed By
