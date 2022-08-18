@@ -14,7 +14,7 @@
             testPaths: "dummy.txt"
             log_identifier: 11050
             comment: "311331"
-# Action outputs
+## Action outputs
 After action execution it will return helpful information.
 
 ${{steps.{XRAY_STEP_ID}.outputs.count}}
